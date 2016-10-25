@@ -1,0 +1,383 @@
+/*------banner样式开始---------*/
+.box{
+    width: 896px;
+    height: 447px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0 0 304px;
+}
+.box .boxInner{
+    width: 3584px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.box .boxInner div{
+    width: 896px;
+    height: 447px;
+    float: left;
+}
+.box .boxInner div img{
+    width: 100%;
+    height: 100%;
+}
+.box ul{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+}
+.box ul li{
+    width: 18px;
+    height: 18px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+.box ul li.on{
+    background: lightblue;
+}
+.box a{
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    top:127.5px;
+    background: url("../img/pre.png") no-repeat;
+    opacity: 0.3;
+    filter:alpha(opacity=30);
+    display: none;
+}
+.box a:hover{
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+.box .btnLeft{
+    left:20px;
+    top: 200px;
+    background-position: 0 0;
+}
+.box .btnRight{
+    right:20px;
+    top: 200px;
+    background-position: -50px 0;
+}
+/*------banner样式结束---------*/
+
+body {
+    background-color: #fff;
+}
+
+img {
+    display: block
+}
+
+.top_wrap {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.top_ad_box {
+    width: 100%;
+    height: 285px;
+    overflow: hidden;
+    margin-top: 20px;
+    *zoom: 1
+}
+
+.top_ad_box:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0
+}
+
+.top_ad_box li {
+    float: left;
+    width: 285px;
+    height: 285px;
+    overflow: hidden;
+    margin-right: 20px
+}
+
+.top_ad_box .mr0 {
+    margin-right: 0
+}
+
+.top_ad_box img {
+    width: 285px
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 84px;
+    margin-bottom: 20px
+}
+
+h2 img {
+    display: inline-block
+}
+
+.brand_wrap {
+    width: 1200px;
+    height: 589px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    *zoom: 1
+}
+
+.brand_wrap:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0
+}
+
+.brand_wrap .brand_box {
+    width: 283px;
+    height: 589px;
+    float: left;
+    margin-right: 20px
+}
+
+.brand_wrap .brand_box a {
+    display: block
+}
+
+.brand_wrap .brand_box img {
+    display: block
+}
+
+.brand_wrap .brand_box .ad_up {
+    width: 283px;
+    height: 297px;
+    overflow: hidden
+}
+
+.brand_wrap .brand_box .ad_up img {
+    width: 283px
+}
+
+.brand_wrap .brand_box .ad_l {
+    *zoom: 1
+}
+
+.brand_wrap .brand_box .ad_l:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0
+}
+
+.brand_wrap .brand_box .ad_list {
+    float: left;
+    width: 140px;
+    height: 96px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin: 0 -1px -1px 0
+}
+
+.brand_wrap .brand_box .ad_list img {
+    width: 140px
+}
+
+.brand_wrap .showOne {
+    width: 305px;
+    height: 589px;
+    overflow: hidden;
+    float: left
+}
+
+.brand_wrap .showOne a {
+    display: block
+}
+
+.brand_wrap .showOne img {
+    width: 305px
+}
+
+.brand_wrap .ad_r {
+    *zoom: 1;
+    float: right;
+    width: 592px;
+    height: 589px;
+    overflow: hidden
+}
+
+.brand_wrap .ad_r:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0
+}
+
+.brand_wrap .ad_r a {
+    float: left;
+    width: 294px;
+    height: 293px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin: 0 -1px -1px 0
+}
+
+.brand_wrap .ad_r img {
+    width: 294px
+}
+
+.common_box {
+    width: 1200px;
+    height: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden
+}
+
+.common_box .ad_t {
+    *zoom: 1;
+    width: 100%;
+    height: 284px;
+    overflow: hidden
+}
+
+.common_box .ad_t:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0
+}
+
+.common_box .ad_t a {
+    float: left
+}
+
+.common_box .ad_t .ad1 {
+    width: 590px;
+    height: 284px;
+    overflow: hidden
+}
+
+.common_box .ad_t .ad1 img {
+    width: 590px
+}
+
+.common_box .ad_t .ad2 {
+    width: 184px;
+    height: 284px;
+    margin-left: 19px;
+    overflow: hidden
+}
+
+.common_box .ad_t .ad2 img {
+    width: 184px
+}
+
+.common_box .ad_b {
+    *zoom: 1;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    margin-top: 20px
+}
+
+.common_box .ad_b:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0
+}
+
+.common_box .ad_b .ad_attr_box {
+    float: left;
+    width: 245px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #F9F9F9;
+    padding: 10px 20px
+}
+
+.common_box .ad_b .ad_attr_box a {
+    float: left;
+    width: 81px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0
+}
+
+.common_box .ad_b .ad_attr_box a:hover {
+    color: #ff3366
+}
+
+.common_box .ad_b .ad_attr_box .red {
+    color: #ff3366
+}
+
+.common_box .ad_b .ad_3 {
+    width: 285px;
+    height: 220px;
+    overflow: hidden;
+    margin-left: 20px;
+    float: left
+}
+
+.common_box .ad_b .ad_3 img {
+    width: 285px;
+    height: 220px
+}
+.height{
+    margin: 60px 0 10px 0;
+}
+.zhanwei {
+    height: 65px
+}
+
+.act_dialog_box {
+    width: 670px;
+    height: 560px;
+    position: relative
+}
+
+.close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.act_left_box {
+    width: 264px;
+    height: 222px;
+    position: fixed;
+    left: 20px;
+    z-index: 999
+}
+
+.act_fix_leftBanner {
+    width: 240px;
+    height: 198px;
+    position: absolute;
+    left: 0;
+    top: 24px
+}
+
+.left_ad_close {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
